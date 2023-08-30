@@ -3,6 +3,8 @@
         <ul class="nav-link-container">
             <li><router-link to="/" class="nav-link">Home</router-link></li>
             <li><router-link to="/posts" class="nav-link">Posts</router-link></li>
+            <li><router-link to="/sessionmanager" class="nav-link">Session</router-link></li>
+            <li><router-link to="/register" class="nav-link">Register</router-link></li>
         </ul>
     </nav>
 </template>
@@ -26,7 +28,7 @@ nav ul li{
 .nav-link-container{
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 50%;
 }
 
 .nav-link {

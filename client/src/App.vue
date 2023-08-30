@@ -9,7 +9,6 @@ import NavBar from './components/NavBar.vue'
     </header>
     <router-view></router-view>
     <footer>
-      <!-- Footer content here -->
     </footer>
   </div>
 </template>
