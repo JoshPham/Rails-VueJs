@@ -1,0 +1,24 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+  --navbarheight: 75px;
+  
+  background-color: rgb(40, 40, 55);
+  color: white;
+  font-family: "Century Gothic";
+}
+
+.main-container {
+  background-color: rgb(65, 65, 105);
+  width: 60%;
+  border-radius: 5px;
+  margin: 90px auto;
+  padding: 1px 20px;
+}
